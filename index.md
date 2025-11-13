@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Ahmad Sediqi]
+Hi! My name is Ahmad Sediqi
 
 ### Development Environment
 
