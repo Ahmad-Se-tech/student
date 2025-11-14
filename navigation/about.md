@@ -60,7 +60,8 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "Flag_of_Afghanistan.svg", "greeting": "Saalam", "description": "Afghanistan - 5 years"},
+        {"flag": "<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+", "greeting": "Saalam", "description": "Afghanistan - 5 years"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - 10 years"}, ];
 
     // 3a. Consider how to update style count for size of container
