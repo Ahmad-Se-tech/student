@@ -60,8 +60,7 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg.png
-", "greeting": "Saalam", "description": "Afghanistan - 5 years"},
+        {"flag":af_tricolor.svg", "greeting": "Saalam", "description": "Afghanistan - 5 years"},
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - 10 years"}, ];
 
     // 3a. Consider how to update style count for size of container
@@ -106,7 +105,7 @@ Here is what I did at those places
 - ⚽ Joined a soccer team
 - 🎓 Graduating in Del Norte High School 2028
 
-### Culture, Family, and Fun
+### Culture, Family, Fun and some Photos of Me and My Family!!!
 
 For me my faith and culture as well as the support of my family dictates my life
 
@@ -114,4 +113,7 @@ For me my faith and culture as well as the support of my family dictates my life
 - My family consists of 2 parents 4 sibling 5 uncles 5 aunts 3 grandparents and soo many cousins I cant count
 - I am a muslim
 
-
+78305544290__00CCE877-2C35-4ABC-B951-2D89B32D6CEC.heic
+IMG_2168.JPG
+IMG_0223.HEIC
+IMG_0656.HEIC
