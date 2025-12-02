@@ -6,6 +6,9 @@ comments: true
 ---
 
 ## As a conversation Starter
+-What I do for a living?
+-Where I was born?
+-What religon I am?
 
 Here are the places I have lived.
 
@@ -60,8 +63,7 @@ Flags are made using Wikipedia images
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag":af_tricolor.svg", "greeting": "Saalam", "description": "Afghanistan - 5 years"},
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - 10 years"}, ];
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever years"}, ];
 
     // 3a. Consider how to update style count for size of container
     // The grid-template-columns has been defined as dynamic with auto-fill and minmax
@@ -98,11 +100,11 @@ Flags are made using Wikipedia images
 
 Here is what I did at those places
 
-- 👼 Born in Afghanistan and lived there for 5 years (AF)
-- ✈️ Flew to the United States California (CA)
+- 👼 Born in California but have Afghan blood
 - 🏫 Was enrolled in to multiple elemetary schools but the only one I can remember is Magnolia elementary school in El Cajon(CA)
 - 🏫 Went to Oak Valley Middle School 2021-2023
 - ⚽ Joined a soccer team
+- 🏢 Worked at my dad's store
 - 🎓 Graduating in Del Norte High School 2028
 
 ### Culture, Family, Fun and some Photos of Me and My Family!!!
@@ -113,7 +115,3 @@ For me my faith and culture as well as the support of my family dictates my life
 - My family consists of 2 parents 4 sibling 5 uncles 5 aunts 3 grandparents and soo many cousins I cant count
 - I am a muslim
 
-78305544290__00CCE877-2C35-4ABC-B951-2D89B32D6CEC.heic
-IMG_2168.JPG
-IMG_0223.HEIC
-IMG_0656.HEIC
