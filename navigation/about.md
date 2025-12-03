@@ -115,6 +115,7 @@ For me my faith and culture as well as the support of my family dictates my life
 - My family consists of 2 parents 4 sibling 5 uncles 5 aunts 3 grandparents and soo many cousins I cant count
 - I am a muslim
 
+<img width="478" height="632" alt="Image" src="https://github.com/user-attachments/assets/408c3f8a-2bfa-47c4-8d13-afe54ebe07de" />
 
 <comment>
 Gallery of Photos
