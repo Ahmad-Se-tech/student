@@ -120,4 +120,4 @@ For me my faith and culture as well as the support of my family dictates my life
 Gallery of Photos
 <comment>
 <div class="image-gallery">
-<img src="/images/about/photo1.jpg" alt="Person hiking near rocky stream">
+   <img src="/images/about/photo1.jpg" alt="Person hiking near rocky stream">
