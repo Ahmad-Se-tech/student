@@ -114,6 +114,10 @@ For me my faith and culture as well as the support of my family dictates my life
 - I am 100% Afghan according to my Family tree
 - My family consists of 2 parents 4 sibling 5 uncles 5 aunts 3 grandparents and soo many cousins I cant count
 - I am a muslim
-<img src="images/IMG_0656.HEIC" alt="Image 1" width="300">
 
 
+<comment>
+Gallery of Photos
+<comment>
+<div class="image-gallery">
+<img src="/images/about/photo1.jpg" alt="Person hiking near rocky stream">
