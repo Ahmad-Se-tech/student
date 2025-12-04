@@ -107,12 +107,13 @@ Here is what I did at those places
 - 🏢 Worked at my dad's store
 - 🎓 Graduating in Del Norte High School 2028
 
-### Culture, Family, Fun and A Photo of Me!!!
+### Culture, Family, Fun, About Me and A Photo of Me!!!
 
 For me my faith and culture as well as the support of my family dictates my life
 
 - I am 100% Afghan according to my Family tree
-- My family consists of 2 parents 4 sibling 5 uncles 5 aunts 3 grandparents and soo many cousins I cant count
+- My family consists of 2 parents 4 sibling 5 uncles 5 aunts 2 grandparents and soo many cousins I cant count but I know them all
 - I am a muslim
+- I also am very pationate about my life choices and I want to be a Pilot or a Software Engineer
 
 <img width="478" height="500" alt="Image" src="https://github.com/user-attachments/assets/408c3f8a-2bfa-47c4-8d13-afe54ebe07de" />
