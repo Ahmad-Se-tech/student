@@ -15,7 +15,8 @@ permalink: /snake/
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color: rgba(21, 155, 0, 1);}
+        border-color: rgba(21, 155, 0, 1);
+    }
     canvas:focus{
         outline: none;
     }
@@ -47,8 +48,9 @@ permalink: /snake/
         background-color: #000000ff;
         color: #ffffffff;
     }
-</style><h2>Snake</h2>
+</style>
 
+<h2>Snake</h2>
 <div class="container">
     <p class="fs-4">Score: <span id="score_value">0</span></p>
     <p class="fs-4">High Score: <span id="high_score_value">0</span></p>    
@@ -321,12 +323,9 @@ permalink: /snake/
     let setSnakeSpeed=function(val){ snake_speed=val; }
     let setWall=function(val){
         wall=val;
-        screen_snake.style.borderColor = wall===1 ? "#7a966eff" : "#302727ff";
+        screen_snake.style.borderColor = wall===1 ? "#080d06ff" : "#c9a4a4ff";
     }
 })();
 </script>
 
-
-
-    
 
