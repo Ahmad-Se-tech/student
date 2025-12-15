@@ -321,7 +321,7 @@ permalink: /snake/
     let setSnakeSpeed=function(val){ snake_speed=val; }
     let setWall=function(val){
         wall=val;
-        screen_snake.style.borderColor = wall===1 ? "#77fa3bff" : "#606060";
+        screen_snake.style.borderColor = wall===1 ? "#7a966eff" : "#302727ff";
     }
 })();
 </script>
