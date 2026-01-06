@@ -67,9 +67,9 @@ setInterval(()=>{seconds++;timerEl.textContent=`Session: ${seconds}s`},1000);
 
 var http_source="https://upload.wikimedia.org/wikipedia/commons/";
 var living_in_the_world=[
-{flag:"0/01/Flag_of_California.svg",greeting:"Hey",description:"California - 10 years and so on",score:5},
-{flag:"/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",greeting:"سلام",description:"Afghanistan - born and raised here for 5 years",score:8},
-{flag:"/9/9a/Flag_of_Spain.svg",greeting:"Hola",description:"Spain - I go here every summer",score:6}
+{flag:"0/01/Flag_of_California.svg",greeting:"Hey",description:"California - 10 years and so on",score:10},
+{flag:"/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",greeting:"سلام",description:"Afghanistan - born and raised here for 5 years",score:5},
+{flag:"/9/9a/Flag_of_Spain.svg",greeting:"Hola",description:"Spain - I go here every summer",score:5}
 ];
 
 var facts=["Flags represent identity","Some flags evolve","Colors carry meaning"];
@@ -142,3 +142,15 @@ document.addEventListener("keydown",e=>{
 <img width="478" height="500" alt="Image" src="https://github.com/user-attachments/assets/408c3f8a-2bfa-47c4-8d13-afe54ebe07de" />
 
 #### Stuff I like
+<div class="grid-container" id="favorit_grid"></div>
+
+<script>
+  var favoriteContainer = document.getElementbyID("favorite_grid");
+
+  var projects = [
+    {
+       image: "{{site.baseurl}}/images/about/soccer.webp",
+       title: "Favorite Sport"
+       description: "This is my Favorite Sport and one of my sports I have played it ever since I was 8"
+    }
+  ]
