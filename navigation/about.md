@@ -72,3 +72,6 @@ var living_in_the_world=[
 {flag:"/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg",greeting:"سلام",description:"Afghanistan - born and raised here for 5 years",score:5},
 {flag:"/9/9a/Flag_of_Spain.svg",greeting:"Hola",description:"Spain - I go here every summer",score:3}
 ];
+
+var facts=["Flags represent identity","Some flags evolve","Colors carry meaning"];
+
