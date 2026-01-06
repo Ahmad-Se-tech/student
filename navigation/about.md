@@ -145,47 +145,23 @@ document.addEventListener("keydown",e=>{
 <div class="grid-container" id="roblox_grid"></div>
 
 <script>
-  var robloxContainer = document.getElementById("roblox_grid");
+var robloxContainer=document.getElementById("roblox_grid");
 
-  var projects = [
-    {
-      image: "{{site.baseurl}}/images/about/soccer.jpeg",
-      title: "Soccer",
-      description: "My first sport I joined when I was 8 and this is still my favorite sport."
-    },
-    {
-      image: "{{site.baseurl}}/images/about/Dubai.webp",
-      title: "Rich City",
-      description: "I want to live in Dubai one day and work for a big company or start a business."
-    },
-    {
-      image: "{{site.baseurl}}/images/about/cake.webp",
-      title: "Sweets",
-      description: "I love sweets, especially cheesecake. I usually eat cake while drinking tea."
-    }
-  ];
+var projects=[
+{image:"/images/about/soccer.jpeg",title:"Soccer",description:"My first sport I joined when I was 8 and this is still my favorite sport."},
+{image:"/images/about/Dubai.webp",title:"Rich City",description:"I want to live in Dubai one day and work for a big company or start a business."},
+{image:"/images/about/cake.webp",title:"Sweets",description:"I love sweets, especially cheesecake. I usually eat cake while drinking tea."}
+];
 
-  for (var i = 0; i < projects.length; i++) {
-    var project = projects[i];
+projects.forEach(p=>{
+ var item=document.createElement("div");
+ item.className="grid-item";
 
-    var gridItem = document.createElement("div");
-    gridItem.className = "grid-item";
+ var img=document.createElement("img"); img.src=p.image;
+ var t=document.createElement("p"); t.textContent=p.title;
+ var d=document.createElement("p"); d.textContent=p.description;
 
-    var img = document.createElement("img");
-    img.src = project.image;
-    img.alt = project.title;
-
-    var title = document.createElement("p");
-    title.textContent = project.title;
-
-    var description = document.createElement("p");
-    description.textContent = project.description;
-
-    gridItem.appendChild(img);
-    gridItem.appendChild(title);
-    gridItem.appendChild(description);
-
-    robloxContainer.appendChild(gridItem);
-  }
+ item.append(img,t,d);
+ robloxContainer.appendChild(item);
+});
 </script>
-
