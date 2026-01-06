@@ -142,15 +142,53 @@ document.addEventListener("keydown",e=>{
 <img width="478" height="500" alt="Image" src="https://github.com/user-attachments/assets/408c3f8a-2bfa-47c4-8d13-afe54ebe07de" />
 
 #### Stuff I like
-<div class="grid-container" id="favorit_grid"></div>
+<div class="grid-container" id="roblox_grid"></div>
+
 
 <script>
-  var favoriteContainer = document.getElementbyID("favorite_grid");
+   var favoriteContainer = document.getElementById("Favorite_grid");
+  
+   var projects = [
+       {
+           image: "{{site.baseurl}}/images/about/soccer.jpeg",
+           title: "Soccer",
+           description: "My first sport I joined when I was 8 and this was is still my Favorite Sport"
+       },
+       {
+           image: "{{site.baseurl}}/images/about/Dubai.webp",
+           title: "Rich City",
+           description: "I plan to live abroad in Dubai to make more money doing business or work for a major company in Dubai."
+       },
+       {
+           image: "{{site.baseurl}}/images/about/cake.webp",
+           title: "Sweets",
+           description: "I have a sweet tooth, and I love cakes especcially Cheesecake, I eat cake while drinking tea. "
+       }
+   ];
 
-  var projects = [
-    {
-       image: "{{site.baseurl}}/images/about/soccer.webp",
-       title: "Favorite Sport"
-       description: "This is my Favorite Sport and one of my sports I have played it ever since I was 8"
-    }
-  ]
+
+   for (const project of projects) {
+       var gridItem = document.createElement("div");
+       gridItem.className = "grid-item";
+
+
+       var img = document.createElement("img");
+       img.src = project.image;
+       img.alt = project.title;
+
+
+       var title = document.createElement("p");
+       title.textContent = project.title;
+
+
+       var description = document.createElement("p");
+       description.textContent = project.description;
+
+
+       gridItem.appendChild(img);
+       gridItem.appendChild(title);
+       gridItem.appendChild(description);
+       robloxContainer.appendChild(gridItem);
+   }
+</script>
+
