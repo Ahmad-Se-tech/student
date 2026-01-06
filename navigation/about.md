@@ -140,3 +140,5 @@ document.addEventListener("keydown",e=>{
 - I want to be a Pilot or a Software Engineer
 
 <img width="478" height="500" alt="Image" src="https://github.com/user-attachments/assets/408c3f8a-2bfa-47c4-8d13-afe54ebe07de" />
+
+#### Stuff I like
